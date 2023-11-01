@@ -68,7 +68,6 @@
   cursor: pointer;
 }
 
-
 .header-icons{
   display: flex;
   flex-direction: row;
@@ -105,4 +104,15 @@
 }
 .icons:hover{
   cursor: pointer;
+}
+
+@media only screen and (max-width: 768px){
+  .announcement-container{
+    width: 390px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    background-color: black;
+  }
 }

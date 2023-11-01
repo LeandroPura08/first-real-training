@@ -53,11 +53,21 @@
   flex-direction: row;
   justify-content: space-between;
   width: 440px;
-  height: Hug(28px);
+  height: 28px;
   top: 36px;
   left: 500px;
   gap: 20px;
 }
+.choises{
+  font-weight: 400;
+  text-transform: uppercase;
+  font-size: 14px;
+  line-height: 28px;
+}
+.choises:hover{
+  cursor: pointer;
+}
+
 
 .header-icons{
   display: flex;
@@ -92,4 +102,7 @@
   align-items: center;
   width: 18px;
   height: 18.5px;
+}
+.icons:hover{
+  cursor: pointer;
 }

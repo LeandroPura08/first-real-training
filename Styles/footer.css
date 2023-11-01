@@ -1,0 +1,38 @@
+/*Footer*/
+.footer-container{
+  display: flex;
+  justify-content: start;
+  width:1440px;
+  height:182px;
+  padding: 55px 70px 55px 70px;
+  gap: 10px;
+  background-color: #000000;
+  color: white;
+}
+.frame4844{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width:695px;
+  height:72px;
+  
+}
+.context2, .context3, .context4{
+  display: flex;
+  flex-direction: column;
+}
+.context2 p:hover, .context3 p:hover, .context4 p:hover{
+cursor: pointer;
+text-decoration: underline;
+}
+
+.logos{
+  display: flex;
+  justify-content: space-between;
+  width: 133px;
+  height: 24px;
+  row-gap: 15px;
+}
+.logo:hover{
+  cursor: pointer;
+}

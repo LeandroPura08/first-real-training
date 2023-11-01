@@ -69,7 +69,7 @@
     width: 100%
 }
 
-.option1:hover , .option2:hover , .option3:hover{
+.options:hover{
   cursor: pointer;
   .line{
     display: block;

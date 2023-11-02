@@ -96,19 +96,21 @@
     position: relative;
     width: 390x;
     height: 788px;
-    padding:482px 0px 47px 0px;
+   /* padding:482px 0px 47px 0px;*/
   } 
   .background-image img{
     position: absolute;
     width: 390x;
-    height: auto;
-    object-fit:fill;
+    height: 100%;
+    background-image:none;
   }
   .text-and-login-container{
-    position: relative;
+    position: absolute;
     width: 310px;
     height: 327px;
     gap: 37;
+    top: 390px;
+    left:45px;
   }
   .text-container{
     display: grid;

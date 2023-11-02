@@ -3,7 +3,6 @@
   position: relative;
   width: 1440px;
   height: 800px;
-
 } 
 .background-image img{
   position: absolute;
@@ -90,4 +89,83 @@
   cursor: pointer;
   background-color: gainsboro;
   border: black solid 1px;
+}
+
+@media only screen and (max-width: 426px){
+  .main{
+    position: relative;
+    width: 390x;
+    height: 788px;
+    padding:482px 0px 47px 0px;
+  } 
+  .background-image img{
+    position: absolute;
+    width: 390x;
+    height: auto;
+    object-fit:fill;
+  }
+  .text-and-login-container{
+    position: relative;
+    width: 310px;
+    height: 327px;
+    gap: 37;
+  }
+  .text-container{
+    display: grid;
+    grid-template-columns: auto;
+    width: 310px;
+    height: 138px;
+    gap: 4px;
+  }
+  .date-tile{
+    width: 310px;
+    height: 102px;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 34px;
+    color: #FFFEF8;
+    letter-spacing: -0.5px;
+    text-transform: uppercase;
+  }
+  .sign-up-text{
+    Width:310px;
+    Height:32px;
+    font-weight: 300;
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: 1px;
+    color: #FFFEF8;
+    text-transform: capitalize;
+  }
+  .login-input-container{
+    display: flex;
+    position: absolute;
+    flex-direction:column;
+    width: 310px;
+    height: 152px;
+    gap: 4px;
+    bottom: 0;
+    left: 0;
+  }
+  .login-input-container input{
+    width: 310px;
+    height: 48px;
+    border: 1px #FFFDF2;
+    Padding:0px 12px 0px 12px;
+    gap: 10px;
+    padding: 10px;
+  }
+  .login-input-container button{
+    width: 310px;
+    height: 48px; 
+    border-radius: 0px 0px 12px 12px;
+    padding:12px 28px 12px 28px;
+    gap:10px;
+    font-weight: 500; 
+    font-size: 16px;
+    line-height: 24px;
+    align-items: Center;
+    border: none;
+  }
+  
 }

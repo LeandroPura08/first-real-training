@@ -3,15 +3,20 @@
   margin: 0;
   box-sizing: border-box;
 }
-
-
-
-@media (max-width: 1440px) and (min-width: 1025){
-  
-}
-
 .container {
-
+  max-width:1440px;
   padding: 0;
   margin: auto;
+  border: 1px solid red;
 }
+
+@media only screen and (max-width: 426px){
+  .container {
+    max-width: 390px;
+    padding: 0;
+    margin: auto;
+    border: 1px solid blue;
+  }
+}
+
+

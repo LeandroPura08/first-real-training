@@ -102,7 +102,7 @@
     position: absolute;
     width: 390x;
     height: 100%;
-    background-image:none;
+    object-fit:cover;
   }
   .text-and-login-container{
     position: absolute;

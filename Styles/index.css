@@ -7,7 +7,6 @@
   max-width:1440px;
   padding: 0;
   margin: auto;
-  border: 1px solid red;
 }
 @media (max-width: 1439px) and (min-width: 1024px){
   .container {
@@ -16,6 +15,14 @@
     margin: auto;
   }
 }
+@media (max-width: 1023px) and (min-width: 769px){
+  .container {
+    max-width: 900x;
+    padding: 0;
+    margin: auto;
+  }
+}
+
 
 
 @media(max-width: 768px)

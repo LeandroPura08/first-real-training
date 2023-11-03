@@ -44,7 +44,7 @@ document.querySelectorAll('.options').forEach((options)=>{
 
   if(role =="offlanes"){
     output = '';
-    document.querySelector('.offlanes').classList.add("selected");
+    document.getElementById('offlanes').classList.add("selected");
     offlanes.forEach((hero) =>{
       output = output +
       `
@@ -57,7 +57,7 @@ document.querySelectorAll('.options').forEach((options)=>{
 
   }else if(role =="safelanes"){
     output = '';
-    document.querySelector('.safelanes').classList.add("selected");
+    document.getElementById('safelanes').classList.add("selected");
     safelanes.forEach((hero) =>{
       output = output +
       `
@@ -69,7 +69,7 @@ document.querySelectorAll('.options').forEach((options)=>{
     });
   }else if(role =="supports"){
     output = '';
-    document.querySelector('.supports').classList.add("selected");
+    document.getElementById('supports').classList.add("selected");
     supports.forEach((hero) =>{
       output = output +
       `

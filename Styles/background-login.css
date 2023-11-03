@@ -91,7 +91,8 @@
   border: black solid 1px;
 }
 
-@media only screen and (max-width: 426px){
+@media(max-width: 768px)
+/*@media(max-width: 426px)*/{
   .main{
     position: relative;
     width: 390x;

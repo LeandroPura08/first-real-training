@@ -48,7 +48,10 @@ text-decoration: underline;
 .logo:hover{
   cursor: pointer;
 }
-@media only screen and (max-width: 426px){
+
+
+@media(max-width: 768px)
+/*@media(max-width: 426px)*/{
   .footer-container{
     display: flex;
     align-items: center;

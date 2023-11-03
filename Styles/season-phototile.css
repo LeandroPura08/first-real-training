@@ -37,7 +37,7 @@
 }
 .season-container{
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
 }
 .seasons{
   display: flex;
@@ -48,14 +48,11 @@
   height: 30px;
   row-gap: 16px;
 }
-.line{
-  width: 50px;
-  bottom:-5px;
-  position: absolute;
-  display: none;
-}
   .options{
   position: relative;
+
+}
+.options p{
   font-size: 16px;
   font-weight: bold;
   line-height: 24px;
@@ -64,19 +61,26 @@
   color:#000000;
   text-transform: uppercase;
 }
-.selected{
+  .options{
     display: block;
-    width: 100%
+    position: relative;
 }
-
+  .options:before{
+  content: "";
+  height: 3px;
+  width: 0%;
+  background-color: black;
+  position: absolute;
+  bottom: 10px;
+  transition: 0.3s;
+}
 .options:hover{
   cursor: pointer;
-  .line{
-    display: block;
+}
+.options:hover::before{
+    content: "";
+    height: 3px;
     width: 100%;
-    transition-delay: 2s, 4ms;
-    opacity: .7;
-  }
 }
 
 .images-designes{
@@ -150,7 +154,7 @@
     display: flex;
     flex: row;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     width:321px;
     height: 30px;
     row-gap: 16px;

@@ -49,7 +49,7 @@ text-decoration: underline;
   cursor: pointer;
 }
 
-@media(max-width: 1024px){
+@media (max-width: 1439px) and (min-width: 1024px){
   .footer-container{
     display: flex;
     align-items: center;

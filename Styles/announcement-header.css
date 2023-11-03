@@ -108,7 +108,7 @@
 }
 
 
-@media(max-width: 1024px){
+@media (max-width: 1439px) and (min-width: 1024px){
   .announcement-container{
     width: 1024px;
     height: 36px;

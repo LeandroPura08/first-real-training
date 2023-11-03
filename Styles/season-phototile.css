@@ -106,7 +106,7 @@
   transform: scale(1.1)
 }
 
-@media(max-width: 1024px){
+@media (max-width: 1439px) and (min-width: 1024px){
   .photo-tile-container{
     width: 1024px;
    /* height: 2425px; */

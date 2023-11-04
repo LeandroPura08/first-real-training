@@ -277,12 +277,12 @@
 }
 
 @media(max-width: 768px)
-/*@media(max-width: 426px)*/{
+{
   .main{
     position: relative;
     width: 390x;
     height: 788px;
-   /* padding:482px 0px 47px 0px;*/
+    padding:482px 0px 47px 0px;
   } 
   .background-image img{
     position: absolute;

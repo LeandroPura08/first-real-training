@@ -368,6 +368,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+
   }
   .frame4993{
     display: flex;
@@ -375,7 +376,7 @@
     justify-content: space-between;
   }
   .frame4993 p{
-    width: 340px;
+    width: 100%;
     height: 34px;
     font-weight: 700;
     font-size: 28px;
